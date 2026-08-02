@@ -68,6 +68,22 @@ Any new content that would contradict one of these must be rejected or
 the contradiction must be reconciled in-universe (e.g., framed as a
 correction the Archive issues about itself), never silently retconned.
 
+## Staying in sync with other collaborators
+
+Multiple people (and their own Claude Code sessions) work in this repo.
+Before starting any new content or code change, `git fetch origin main`
+and skim recent commits and merged PRs on it — `git log --oneline -15
+origin/main` is enough. That surfaces what a collaborator shipped since
+your last session: a new canon detail, a released track, a renamed file
+you're about to collide with.
+
+This is a habit, not a document. Don't maintain a separate changelog or
+summary file to serve this purpose — git history and PR descriptions
+already are that record, are never out of date, and don't need anyone to
+remember to update them. Write commit messages and PR descriptions
+accordingly: say what changed and why, since that's what the next person
+(human or agent) is going to read.
+
 ## Repo structure
 
 ```
