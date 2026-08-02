@@ -2,6 +2,7 @@
 title: "The Voyage"
 slug: the-voyage
 type: expedition
+order: 2
 ---
 
 The ketch departed Fort Lauderdale in 1979. The charter was for six

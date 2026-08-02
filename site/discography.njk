@@ -1,0 +1,50 @@
+---
+layout: base.njk
+permalink: /discography/index.html
+title: Discography
+---
+
+<header class="section-head">
+  <h1>Discography</h1>
+  <p class="section-head__note">
+    Sixty-one tracks, recovered from Crate 14 in original boxes and
+    transferred between 1990 and 1992. Tempos throughout fall between 82 and
+    84 BPM. Every track is in a major seventh. Sequence follows the order in
+    which the reels were boxed, which the Archive treats as authoritative in
+    the absence of anything else.
+  </p>
+</header>
+
+<div class="table-wrap">
+<table class="catalog">
+  <caption class="caption">
+    {{ collections.released | length }} released, {{ collections.tracks | length }} recovered.
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col" class="num">No.</th>
+      <th scope="col">Title</th>
+      <th scope="col">Runtime</th>
+      <th scope="col">Key</th>
+      <th scope="col">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for track in collections.tracks %}
+      <tr{% if track.data.status == "released" %} class="is-released"{% endif %}>
+        <td class="num">{{ track.data.track_number }}</td>
+        <td><a href="{{ track.url }}">{{ track.data.title }}</a></td>
+        <td>{{ track.data.runtime if track.data.runtime else "—" }}</td>
+        <td>{{ track.data.key if track.data.key else "—" }}</td>
+        <td class="status">{{ track.data.status }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+
+<p class="caption">
+  Runtimes are given as recorded. The runtime of &ldquo;Chardonnay
+  Diplomacy&rdquo; reflects the length of the tape and not the length of the
+  performance.
+</p>

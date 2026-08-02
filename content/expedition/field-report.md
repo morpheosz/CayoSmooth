@@ -1,7 +1,8 @@
 ---
 title: "Field Report: The Cayo Smooth Expedition"
 type: expedition
-date: 1980
+order: 1
+filed: 1980
 status: canon
 ---
 

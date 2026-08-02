@@ -17,8 +17,8 @@ recorded: "aboard the ketch, final session, date illegible"
 ---
 
 The closer. Not about Alaska. Concerns, at length, the act of anchoring:
-technique, etiquette, and — for a period beginning at roughly the six-
-minute mark — inventory.
+technique, etiquette, and — for a period beginning at roughly the
+six-minute mark — inventory.
 
 At 6:04 the vocal stops and a second voice, uncredited on the original
 tape box, lists boat parts in a warm, reassuring baritone for ninety

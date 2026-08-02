@@ -2,6 +2,7 @@
 title: "The Recovery"
 slug: the-recovery
 type: expedition
+order: 4
 ---
 
 Eleven years, from the boat show to the warehouse.

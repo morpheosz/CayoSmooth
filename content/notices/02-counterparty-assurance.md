@@ -1,6 +1,7 @@
 ---
 title: "Counterparty Assurance (Received)"
 type: notice
+slug: counterparty-assurance
 issued_by: "Counterparty (unnamed representative)"
 sequence: 2
 ---

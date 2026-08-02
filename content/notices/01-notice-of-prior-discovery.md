@@ -1,6 +1,7 @@
 ---
 title: "Notice of Prior Discovery and Licensing Availability"
 type: notice
+slug: notice-of-prior-discovery
 issued_by: "Cayo Smooth Expedition Archive"
 sequence: 1
 ---

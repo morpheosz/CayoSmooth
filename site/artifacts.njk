@@ -1,0 +1,28 @@
+---
+layout: base.njk
+permalink: /artifacts/index.html
+title: Artifact Inventory
+---
+
+<header class="section-head">
+  <h1>Artifact Inventory</h1>
+  <p class="section-head__note">
+    Four accessions. Two are held by the Archive, one is on loan, and one is
+    unaccounted for. All four are catalogued.
+  </p>
+</header>
+
+<ul class="index-list">
+  {% for doc in collections.artifact %}
+    <li>
+      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+      <span class="index-list__meta">
+        {{ doc.data.accession_number }} &middot; {{ doc.data.status }}
+      </span>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="caption">
+  Artifact photography is held offsite and has not been digitised.
+</p>

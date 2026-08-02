@@ -1,6 +1,7 @@
 ---
 title: "Response to Counterparty Assurance"
 type: notice
+slug: response-to-counterparty-assurance
 issued_by: "Cayo Smooth Expedition Archive"
 sequence: 3
 ---

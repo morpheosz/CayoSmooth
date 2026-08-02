@@ -2,6 +2,7 @@
 title: "Archive Storefront"
 slug: products
 type: merch
+permalink: /merch/index.html
 ---
 
 Items are produced in support of the Archive's conservation programme.

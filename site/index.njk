@@ -1,0 +1,99 @@
+---
+layout: base.njk
+permalink: /index.html
+---
+
+<section class="lede">
+  <h1>The Cayo Smooth Expedition</h1>
+  <p class="lede__text">
+    In 1979 an A&amp;R man named Gil Vandermeer chartered a fifty-two-foot
+    ketch, loaded it with a Fender Rhodes, four studio musicians, an
+    unlicensed dentist, and roughly nine hundred pounds of provisions that
+    were legally classified as &ldquo;cheese,&rdquo; and set sail for what he
+    described in a telegram as &ldquo;the smooth latitudes.&rdquo;
+  </p>
+  <p class="lede__text">
+    They were gone for fourteen months. They came back with sixty-one songs
+    and no ketch. This Archive holds the recovered materials.
+  </p>
+  <p class="more"><a href="/expedition/field-report/">Read the field report</a></p>
+</section>
+
+<section class="panel">
+  <h2 class="label">Holdings</h2>
+  <dl class="figures">
+    <div>
+      <dt>Tracks recovered</dt>
+      <dd>61</dd>
+    </div>
+    <div>
+      <dt>Released</dt>
+      <dd>{{ collections.released | length }}</dd>
+    </div>
+    <div>
+      <dt>Tempo range</dt>
+      <dd>82&ndash;84 BPM</dd>
+    </div>
+    <div>
+      <dt>Duration of voyage</dt>
+      <dd>14 months</dd>
+    </div>
+    <div>
+      <dt>Vessels returned</dt>
+      <dd>0</dd>
+    </div>
+    <div>
+      <dt>Personnel unidentified</dt>
+      <dd>1</dd>
+    </div>
+  </dl>
+</section>
+
+<section class="panel">
+  <h2 class="label">Released recordings</h2>
+  <ol class="listing">
+    {% for track in collections.released %}
+      <li>
+        <a href="{{ track.url }}">{{ track.data.title }}</a>
+        <span class="listing__meta">
+          {{ track.data.runtime }} &middot; {{ track.data.key }}
+        </span>
+      </li>
+    {% endfor %}
+  </ol>
+  <p class="caption">
+    The remaining fifty-six are being introduced to the public gradually, on
+    the advice of a panel of cardiologists.
+    <a href="/discography/">View the full discography.</a>
+  </p>
+</section>
+
+<section class="panel">
+  <h2 class="label">Sections</h2>
+  <ul class="sections">
+    <li>
+      <a href="/expedition/">The Expedition</a>
+      <span>Voyage narrative, the smooth latitudes, and the recovery.</span>
+    </li>
+    <li>
+      <a href="/discography/">Discography</a>
+      <span>All sixty-one recovered tracks.</span>
+    </li>
+    <li>
+      <a href="/artifacts/">Artifacts</a>
+      <span>The blender, the journal, Crate 14, and the Rhodes.</span>
+    </li>
+    <li>
+      <a href="/personnel/">Personnel</a>
+      <span>Expedition members, including one unresolved.</span>
+    </li>
+    <li>
+      <a href="/notices/">Notices</a>
+      <span>The rights dispute and related correspondence.</span>
+    </li>
+    <li>
+      <a href="/merch/">Storefront</a>
+      <span>Items produced in support of the conservation programme.</span>
+    </li>
+  </ul>
+</section>

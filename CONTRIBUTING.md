@@ -70,8 +70,9 @@ that would contradict either:
 2. Before submitting, re-read your addition against the "What does not
    work" list in `CLAUDE.md`. If a line makes you smile because it's
    winking at you rather than because it's dry, cut it.
-3. Reviewers should read new content aloud, mentally, in the museum-
-   placard voice. If it doesn't survive that, it needs another pass.
+3. Reviewers should read new content aloud, mentally, in the
+   museum-placard voice. If it doesn't survive that, it needs another
+   pass.
 4. Site/build changes are reviewed separately from content changes where
    possible, so tone review isn't blocked on build review.
 

@@ -2,6 +2,7 @@
 title: "The Smooth Latitudes"
 slug: the-smooth-latitudes
 type: expedition
+order: 3
 ---
 
 The phrase originates with Vandermeer and appears first in the departure

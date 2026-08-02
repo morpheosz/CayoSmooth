@@ -1,0 +1,21 @@
+---
+layout: base.njk
+permalink: /expedition/index.html
+title: The Expedition
+---
+
+<header class="section-head">
+  <h1>The Expedition</h1>
+  <p class="section-head__note">
+    The charter was for six weeks. The Expedition returned fourteen months
+    later, without the vessel, by means the Archive has not established.
+  </p>
+</header>
+
+<ul class="index-list">
+  {% for doc in collections.expedition %}
+    <li>
+      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
