@@ -33,7 +33,7 @@ title: Discography
     {% for track in collections.tracks %}
       <tr{% if track.data.status == "released" %} class="is-released"{% endif %}>
         <td class="num">{{ track.data.track_number }}</td>
-        <td><a href="{{ track.url }}">{{ track.data.title }}</a></td>
+        <td><a href="{{ track.url | url }}">{{ track.data.title }}</a></td>
         <td>{{ track.data.runtime if track.data.runtime else "—" }}</td>
         <td>{{ track.data.key if track.data.key else "—" }}</td>
         <td class="status">{{ track.data.status }}</td>

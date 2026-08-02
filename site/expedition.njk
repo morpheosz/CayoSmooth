@@ -15,7 +15,7 @@ title: The Expedition
 <ul class="index-list">
   {% for doc in collections.expedition %}
     <li>
-      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+      <a href="{{ doc.url | url }}">{{ doc.data.title }}</a>
     </li>
   {% endfor %}
 </ul>

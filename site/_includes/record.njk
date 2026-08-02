@@ -5,7 +5,7 @@ layout: base.njk
 <article class="record">
   <header class="record__head">
     {% if section %}
-      <p class="eyebrow"><a href="{{ sectionUrl }}">{{ section }}</a></p>
+      <p class="eyebrow"><a href="{{ sectionUrl | url }}">{{ section }}</a></p>
     {% endif %}
     <h1>{{ title }}</h1>
 

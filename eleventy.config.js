@@ -52,6 +52,10 @@ module.exports = function (eleventyConfig) {
       includes: "site/_includes",
       data: "site/_data",
     },
+    // GitHub Pages serves this as a project site under /CayoSmooth/, not
+    // domain root. CI supplies PATH_PREFIX; local dev defaults to root so
+    // `npm run serve` still works at http://localhost:8080/.
+    pathPrefix: process.env.PATH_PREFIX || "/",
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
   };
