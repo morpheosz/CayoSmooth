@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img"
+     aria-label="White enamel mug with a navy rim, carrying the accession number CSE-A-001 and no other marking.">
+  <rect width="800" height="600" fill="#f2efe7"/>
+
+  <!-- handle, behind the body -->
+  <path d="M462 250 C548 250, 552 356, 462 360" fill="none" stroke="#cfc9ba" stroke-width="26"/>
+  <path d="M462 250 C548 250, 552 356, 462 360" fill="none" stroke="#fdfdfb" stroke-width="20"/>
+
+  <!-- body -->
+  <path d="M300 214 L300 424 Q300 452 328 452 L432 452 Q460 452 460 424 L460 214 Z"
+        fill="#fdfdfb" stroke="#cfc9ba"/>
+
+  <!-- navy rim -->
+  <path d="M300 214 L300 240 L460 240 L460 214 Z" fill="#2a4a63"/>
+  <ellipse cx="380" cy="214" rx="80" ry="19" fill="#2a4a63"/>
+  <ellipse cx="380" cy="214" rx="68" ry="14" fill="#e4e9ee" stroke="#2a4a63" stroke-width="1"/>
+
+  <!-- soft cylinder shading -->
+  <path d="M300 240 L300 424 Q300 452 328 452 L346 452 L346 240 Z" fill="#f2f1ec" opacity="0.8"/>
+  <path d="M440 240 L440 452 L432 452 Q460 452 460 424 L460 240 Z" fill="#f2f1ec" opacity="0.8"/>
+
+  <text x="380" y="352" text-anchor="middle" font-family="Georgia, serif"
+        font-size="19" fill="#6b6e68" letter-spacing="3">CSE-A-001</text>
+
+  <!-- base shadow -->
+  <ellipse cx="380" cy="460" rx="86" ry="8" fill="#ddd8cc" opacity="0.55"/>
+</svg>

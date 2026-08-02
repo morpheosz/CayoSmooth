@@ -5,6 +5,8 @@ type: artifact
 accession_number: "CSE-A-002"
 status: "Held by the Archive"
 condition: "Water-damaged"
+image: /assets/artifacts/the-journal.svg
+image_caption: "Cover and page block. The water damage is uniform across the volume."
 ---
 
 Bound notebook, marbled cover, approximately 180 leaves, of which 44 are

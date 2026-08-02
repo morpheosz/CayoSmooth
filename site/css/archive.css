@@ -418,6 +418,102 @@ h2 {
   margin: 0;
 }
 
+/* ---- Plates ----
+   Each plate carries its own paper ground, so it sits on the page like a
+   mounted drawing and stays legible in either theme. */
+
+.plate {
+  margin: 0 0 2.5rem;
+  max-width: 40rem;
+}
+
+.plate img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+}
+
+.plate .caption {
+  margin-top: 0.7rem;
+}
+
+/* ---- Storefront and inventory grids ---- */
+
+.storefront,
+.inventory {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 2.75rem 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product__link,
+.accession__link {
+  display: block;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.product__frame,
+.accession__frame {
+  display: block;
+  border: 1px solid var(--rule);
+}
+
+.product__link:hover .product__frame,
+.accession__link:hover .accession__frame {
+  border-color: var(--rule-strong);
+}
+
+.product__frame img,
+.accession__frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product__title,
+.accession__title {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  text-decoration: underline;
+  text-decoration-color: var(--rule-strong);
+  text-underline-offset: 0.16em;
+}
+
+.product__link:hover .product__title,
+.accession__link:hover .accession__title {
+  text-decoration-color: var(--link);
+}
+
+.product__meta,
+.accession__meta {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.product__price {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.price {
+  max-width: var(--measure);
+  margin: 2.25rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: 1.125rem;
+  font-variant-numeric: tabular-nums;
+}
+
 /* ---- Catalog table ---- */
 
 .table-wrap {
