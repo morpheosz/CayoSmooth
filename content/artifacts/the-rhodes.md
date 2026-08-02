@@ -4,8 +4,6 @@ slug: the-rhodes
 type: artifact
 accession_number: "CSE-A-004"
 status: "Unaccounted for"
-image: /assets/artifacts/the-rhodes.svg
-image_caption: "Drawn from the manufacturer's specification rather than from the instrument, for the reason given below."
 ---
 
 Seventy-three-key electric piano, loaded aboard the ketch at Fort

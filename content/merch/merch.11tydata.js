@@ -1,9 +1,6 @@
 module.exports = {
-  layout: "product.njk",
+  layout: "record.njk",
   tags: "merch",
   section: "Storefront",
   sectionUrl: "/merch/",
-  eleventyComputed: {
-    permalink: (data) => `/merch/${data.slug || data.page.fileSlug}/index.html`,
-  },
 };

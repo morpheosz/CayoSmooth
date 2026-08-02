@@ -27,13 +27,6 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
   );
 
-  // Storefront runs in catalogue order, not file order.
-  eleventyConfig.addCollection("merch", (collection) =>
-    collection
-      .getFilteredByTag("merch")
-      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
-  );
-
   // Notices are read as an exchange and must stay in filed order.
   eleventyConfig.addCollection("notices", (collection) =>
     collection

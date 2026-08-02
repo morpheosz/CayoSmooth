@@ -5,8 +5,6 @@ type: artifact
 accession_number: "CSE-A-003"
 status: "Held by the Archive"
 recovered: "Panamanian duty-free warehouse"
-image: /assets/artifacts/the-crate.svg
-image_caption: "Front face. The third instruction is stencilled at the weight of the first two."
 ---
 
 Wooden shipping crate, 118 × 61 × 58 cm, stencilled on two sides:
