@@ -2,6 +2,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "site/css": "css" });
   eleventyConfig.addPassthroughCopy({ assets: "assets" });
 
+  // Seed brief for generative tools. Copied verbatim rather than rendered, so
+  // /seed.md serves raw Markdown. Unlinked from the site's navigation.
+  eleventyConfig.addPassthroughCopy({ "SEED.md": "seed.md" });
+
   // Curly quotes and proper dashes; the type is serif and the register is
   // formal, and straight apostrophes read as a draft.
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.set({ typographer: true }));
