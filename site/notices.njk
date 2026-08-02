@@ -15,7 +15,7 @@ title: Notices
 <ol class="index-list index-list--numbered">
   {% for doc in collections.notices %}
     <li>
-      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+      <a href="{{ doc.url | url }}">{{ doc.data.title }}</a>
       <span class="index-list__meta">{{ doc.data.issued_by }}</span>
     </li>
   {% endfor %}

@@ -16,7 +16,7 @@ permalink: /index.html
     They were gone for fourteen months. They came back with sixty-one songs
     and no ketch. This Archive holds the recovered materials.
   </p>
-  <p class="more"><a href="/expedition/field-report/">Read the field report</a></p>
+  <p class="more"><a href="{{ '/expedition/field-report/' | url }}">Read the field report</a></p>
 </section>
 
 <section class="panel">
@@ -54,7 +54,7 @@ permalink: /index.html
   <ol class="listing">
     {% for track in collections.released %}
       <li>
-        <a href="{{ track.url }}">{{ track.data.title }}</a>
+        <a href="{{ track.url | url }}">{{ track.data.title }}</a>
         <span class="listing__meta">
           {{ track.data.runtime }} &middot; {{ track.data.key }}
         </span>
@@ -64,7 +64,7 @@ permalink: /index.html
   <p class="caption">
     The remaining fifty-six are being introduced to the public gradually, on
     the advice of a panel of cardiologists.
-    <a href="/discography/">View the full discography.</a>
+    <a href="{{ '/discography/' | url }}">View the full discography.</a>
   </p>
 </section>
 
@@ -72,27 +72,27 @@ permalink: /index.html
   <h2 class="label">Sections</h2>
   <ul class="sections">
     <li>
-      <a href="/expedition/">The Expedition</a>
+      <a href="{{ '/expedition/' | url }}">The Expedition</a>
       <span>Voyage narrative, the smooth latitudes, and the recovery.</span>
     </li>
     <li>
-      <a href="/discography/">Discography</a>
+      <a href="{{ '/discography/' | url }}">Discography</a>
       <span>All sixty-one recovered tracks.</span>
     </li>
     <li>
-      <a href="/artifacts/">Artifacts</a>
+      <a href="{{ '/artifacts/' | url }}">Artifacts</a>
       <span>The blender, the journal, Crate 14, and the Rhodes.</span>
     </li>
     <li>
-      <a href="/personnel/">Personnel</a>
+      <a href="{{ '/personnel/' | url }}">Personnel</a>
       <span>Expedition members, including one unresolved.</span>
     </li>
     <li>
-      <a href="/notices/">Notices</a>
+      <a href="{{ '/notices/' | url }}">Notices</a>
       <span>The rights dispute and related correspondence.</span>
     </li>
     <li>
-      <a href="/merch/">Storefront</a>
+      <a href="{{ '/merch/' | url }}">Storefront</a>
       <span>Items produced in support of the conservation programme.</span>
     </li>
   </ul>

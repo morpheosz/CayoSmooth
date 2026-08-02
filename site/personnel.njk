@@ -16,7 +16,7 @@ title: Personnel Records
 <ul class="index-list">
   {% for doc in collections.personnel %}
     <li>
-      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+      <a href="{{ doc.url | url }}">{{ doc.data.title }}</a>
       <span class="index-list__meta">
         {% if doc.data.role %}{{ doc.data.role }} &middot; {% endif %}{{ doc.data.status }}
       </span>

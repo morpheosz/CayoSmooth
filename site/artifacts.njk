@@ -15,7 +15,7 @@ title: Artifact Inventory
 <ul class="index-list">
   {% for doc in collections.artifact %}
     <li>
-      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+      <a href="{{ doc.url | url }}">{{ doc.data.title }}</a>
       <span class="index-list__meta">
         {{ doc.data.accession_number }} &middot; {{ doc.data.status }}
       </span>
