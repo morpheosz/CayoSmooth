@@ -32,4 +32,10 @@ made.
 
 Delgado returned. The saxophone solo did not.
 
+The roster does not account for everyone audible on the recordings.
+Vocalists were engaged at ports of call throughout the voyage and paid
+from ship's funds. They are not carried on the charter, the insurer's
+schedule, or the ledger's list of four. They were not Expedition members.
+They were, in several cases, on the boat. See `vocal-attribution.md`.
+
 Terry is not on this roster. See `terry.md`.

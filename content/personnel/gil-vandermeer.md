@@ -16,10 +16,16 @@ He signed acts. Some of them recorded. Nothing in the file anticipates
 what followed, which the Archive has come to regard as the most
 interesting thing about the file.
 
-He is the credited vocalist on all sixty-one tracks. He is also, per the
-original tape box, the credited speaker on the inventory passage in
-"Anchorage," a credit the session log assigns to another party. The
-Archive holds both documents and has declined to arbitrate between them.
+He is the credited vocalist on thirty-eight of the sixty-one tracks. This
+is more than any other party and well short of all of them. The remainder
+are divided among the musicians, persons engaged at ports of call, and
+eleven tracks on which the vocal credit is blank. See
+`vocal-attribution.md`.
+
+He is also, per the original tape box, the credited speaker on the
+inventory passage in "Anchorage," a credit the session log assigns to
+another party. The Archive holds both documents and has declined to
+arbitrate between them.
 
 He did not return. This is stated plainly in the Archive's records and
 is not, at present, qualified. The journal's final entry has Vandermeer
