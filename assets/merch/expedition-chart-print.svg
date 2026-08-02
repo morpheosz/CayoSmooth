@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img"
+     aria-label="Reproduction of the chartered route as filed. The plotted course ends in open water.">
+  <rect width="800" height="600" fill="#f2efe7"/>
+
+  <!-- the printed sheet -->
+  <rect x="56" y="40" width="688" height="520" fill="#fcfbf7" stroke="#d8d3c6"/>
+
+  <g stroke="#e8e4d9" stroke-width="1">
+    <path d="M160 64V536M240 64V536M320 64V536M400 64V536M480 64V536M560 64V536M640 64V536M720 64V536"/>
+    <path d="M80 136H720M80 208H720M80 280H720M80 352H720M80 424H720M80 496H720"/>
+  </g>
+
+  <!-- land -->
+  <path d="M80 470 L126 464 L170 482 L212 496 L250 520 L298 536 L80 536 Z"
+        fill="#ebe5d7" stroke="#cfc9ba"/>
+  <path d="M126 464l-4-10M170 482l3-10M212 496l6-9M250 520l2-10"
+        stroke="#cfc9ba" stroke-width="1"/>
+  <path d="M126 402a30 14 0 1 0 60 0a30 14 0 1 0 -60 0" fill="#ebe5d7" stroke="#cfc9ba"/>
+
+  <!-- soundings -->
+  <g fill="#a9a498" font-family="Georgia, serif" font-size="11">
+    <text x="252" y="404">82</text>
+    <text x="356" y="462">84</text>
+    <text x="404" y="248">83</text>
+    <text x="520" y="404">82</text>
+    <text x="596" y="330">84</text>
+    <text x="316" y="182">83</text>
+    <text x="656" y="470">82</text>
+  </g>
+
+  <!-- the charted course -->
+  <path d="M152 478 L216 448 L248 396 L322 368 L364 312 L446 286 L490 236 L566 210"
+        fill="none" stroke="#2a4a63" stroke-width="2" stroke-dasharray="7 5"/>
+  <g fill="#2a4a63">
+    <circle cx="152" cy="478" r="4.5"/>
+    <circle cx="248" cy="396" r="2.4"/>
+    <circle cx="364" cy="312" r="2.4"/>
+    <circle cx="490" cy="236" r="2.4"/>
+  </g>
+  <circle cx="566" cy="210" r="5.5" fill="none" stroke="#2a4a63" stroke-width="2"/>
+
+  <g font-family="Georgia, serif" font-size="10" fill="#6b6e68" letter-spacing="1.4">
+    <text x="88" y="510">DEPARTURE</text>
+    <text x="580" y="202">TERMINUS AS FILED</text>
+  </g>
+
+  <!-- compass rose -->
+  <g transform="translate(662 132)">
+    <circle r="31" fill="none" stroke="#cfc9ba"/>
+    <path d="M0-30 L7-7 L30 0 L7 7 L0 30 L-7 7 L-30 0 L-7-7 Z"
+          fill="#fcfbf7" stroke="#8d8880" stroke-width="1.2"/>
+    <path d="M0-30 L7-7 L-7-7 Z" fill="#2b2e2f"/>
+    <text x="0" y="-38" text-anchor="middle" font-family="Georgia, serif"
+          font-size="11" fill="#6b6e68">N</text>
+  </g>
+
+  <!-- title block -->
+  <rect x="518" y="432" width="192" height="88" fill="#fcfbf7" stroke="#d8d3c6"/>
+  <g font-family="Georgia, serif" fill="#2b2e2f">
+    <text x="532" y="454" font-size="10" letter-spacing="1.6">CAYO SMOOTH EXPEDITION</text>
+    <text x="532" y="472" font-size="10" letter-spacing="1.6" fill="#6b6e68">CHARTERED ROUTE</text>
+    <text x="532" y="488" font-size="10" letter-spacing="1.6" fill="#6b6e68">AS FILED, 1979</text>
+    <text x="532" y="508" font-size="9" letter-spacing="1.2" fill="#a9a498">SOUNDINGS IN FATHOMS</text>
+  </g>
+</svg>

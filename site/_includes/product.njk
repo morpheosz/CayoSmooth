@@ -1,0 +1,28 @@
+---
+layout: base.njk
+---
+
+<article class="record">
+  <header class="record__head">
+    <p class="eyebrow"><a href="{{ '/merch/' | url }}">Storefront</a></p>
+    <h1>{{ title }}</h1>
+    <p class="record__sub">
+      {{ sku }}{% if specs %} &middot; {{ specs }}{% endif %}
+    </p>
+  </header>
+
+  {% if image %}
+    <figure class="plate">
+      <img src="{{ image | url }}" alt="{{ title }}" width="800" height="600" />
+      {% if image_caption %}
+        <figcaption class="caption">{{ image_caption }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
+
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+
+  <p class="price">{{ price }}</p>
+</article>

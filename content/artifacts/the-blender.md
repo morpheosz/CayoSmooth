@@ -5,6 +5,8 @@ type: artifact
 accession_number: "CSE-A-001"
 status: "On loan"
 recovered: "1988, off Bocas del Toro"
+image: /assets/artifacts/the-blender.svg
+image_caption: "Four-speed, chrome collar, glass carafe. Pitting is visible along the base."
 ---
 
 Recovered in 1988 off Bocas del Toro by a salvage crew working an
