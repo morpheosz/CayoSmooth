@@ -3,7 +3,7 @@
 Paste this into a fresh Claude Code session at the root of the `CayoSmooth`
 clone. It contains the full canon, the tone rules, and the first tasks.
 
-Repo: https://github.com/zpierce/CayoSmooth
+Repo: https://github.com/morpheosz/CayoSmooth
 
 ---
 

@@ -5,8 +5,10 @@ type: merch
 permalink: /merch/index.html
 ---
 
-Items are produced in support of the Archive's conservation programme.
-Proceeds fund reel stabilisation, offsite storage, and correspondence.
+Items are produced by the Cayo Smooth Restoration Initiative in support
+of the conservation programme, by arrangement with the Cayo Smooth
+Expedition Archive. Proceeds fund reel stabilisation, offsite storage,
+and correspondence.
 
 ---
 
@@ -51,6 +53,27 @@ standard rate of one (1) frozen drink, redeemable at a marina of our
 choosing.
 
 **$32.00**
+
+---
+
+## Expedition Commemorative Shirt
+
+Heavyweight cotton, natural. Issued by the Restoration Initiative.
+
+Front: the expedition seal, the phrase set around the lower edge, and the
+year of departure beneath it. Reverse: the voyage dates, the fifteen
+recorded ports of call, and a summary of what the voyage produced.
+
+Grand Marais is marked on the reverse with an asterisk reading
+*unexpected*. This is the Initiative's characterisation and not the
+Archive's. The Archive's position is that the Grand Marais documentation
+is sound and that an asterisk is an editorial act.
+
+The reverse gives the dates as 1979–1981. The Archive dates the return to
+1980 and has written to us regarding this. We have acknowledged the
+letter. The shirts were already printed.
+
+**$34.00**
 
 ---
 
