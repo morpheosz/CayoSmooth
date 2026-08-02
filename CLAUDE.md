@@ -73,7 +73,7 @@ correction the Archive issues about itself), never silently retconned.
 ```
 CLAUDE.md              This file.
 README.md              Archive framing, repo map.
-CONTRIBUTING.md         Full style guide, PR process, canon-change process.
+CONTRIBUTING.md         PR process, canon-change process, collaborators.
 SEED.md                 Seed brief for generative tools. Published unlinked
                         at /seed.md. Keep current — see below.
 content/
@@ -90,13 +90,24 @@ assets/                 Cover art, mockups, images.
 ## Working conventions
 
 - Content lives in Markdown with YAML frontmatter so it stays portable
-  across site generators.
+  across site generators, and diffable in review.
 - Every discography entry follows `content/discography/_TEMPLATE.md`.
   Released tracks get full entries; unreleased tracks are stubs with
   `status: unreleased` and a title only.
-- Every full track entry must include at least one detail that is
-  quietly wrong — an inconsistency stated with total confidence, never
-  flagged as a joke.
+- Artifact and personnel records: prose is unstructured beyond a short
+  frontmatter block (`title`, `type`, optionally `status`). Match the
+  register of existing files in the same directory before adding new
+  ones.
+- Notices: correspondence format, dated, signed by the Archive or the
+  counterparty as appropriate. See `content/notices/` for the existing
+  exchange.
+- Every full discography entry, and most artifact and personnel
+  records, must carry at least one detail that is quietly wrong — a
+  date that doesn't reconcile, a number that contradicts another
+  document, a credit that couldn't have been possible. It is never
+  flagged as a joke. If a detail like this looks like a mistake and you
+  want to "fix" it, check the hard canon list above first — it may be
+  load-bearing.
 - When in doubt about tone, prefer understatement and cut the last
   sentence if it explains the joke.
 
