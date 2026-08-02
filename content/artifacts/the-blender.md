@@ -14,6 +14,11 @@ thereby establishes, by implication, that there was at least one other.
 The second blender has not been recovered. The Archive does not consider
 it lost, only unrecovered.
 
+Bocas del Toro is Isla Colón, which the reconstructed port record lists
+as a call of the Expedition. The two documents were compiled twenty-two
+years apart, from unrelated sources, and they agree. The Archive records
+the agreement because it has few opportunities to.
+
 Physical description: four-speed, chrome collar, glass carafe, motor
 housing pitted along the base. The carafe is original. This has been
 questioned. The Archive's position is that the carafe is original.
