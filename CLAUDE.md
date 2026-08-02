@@ -63,10 +63,49 @@ especially unnecessary ones.
   release as the closer. New releases should be rare and deliberate, not
   incidental to a content pass.
 - Nothing is 100% intact. Dilution is the medium.
+- The Archive dates the return to 1980 and says so in running prose. One
+  object, recovered at Grand Marais and dated 1981, contradicts this and
+  has not been dismissed. The discrepancy is the Archive's most contested
+  fact and stays unresolved. Do not settle it in either direction.
+- Grand Marais, Minnesota is a recorded port of call. No route is given,
+  no explanation is offered, and none is ever attempted.
+- Vandermeer is the most frequently credited vocalist, not the only one.
+  Vocalists rotated. Some were the musicians; some were engaged at ports
+  to settle obligations ashore. Attribution across the trove is
+  incomplete and stays that way. Port vocalists get credits, never
+  dossiers.
+- The Cabo episode is referenced and never described. It is not an
+  illness. It is not anything the Archive has recorded.
+- Two institutions. The **Cayo Smooth Expedition Archive** holds
+  discovery, provenance, and custody. The **Cayo Smooth Restoration
+  Initiative** is the modern conservation and publication layer and
+  claims no discovery. Releases carry: *Published by the Cayo Smooth
+  Restoration Initiative, by arrangement with the Cayo Smooth Expedition
+  Archive.*
 
 Any new content that would contradict one of these must be rejected or
 the contradiction must be reconciled in-universe (e.g., framed as a
 correction the Archive issues about itself), never silently retconned.
+
+## The two voices
+
+The Archive and the Initiative do not sound the same, and the difference
+is load-bearing.
+
+**The Archive** is the museum placard voice described above. Defensive,
+procedural, never knowingly funny. Everything under
+`content/expedition/`, `content/artifacts/`, `content/personnel/`, and
+`content/discography/` is the Archive speaking.
+
+**The Initiative** is warmer and a half-step looser — a conservation body
+writing publication and promotional copy in 2026. It may be plainly
+enthusiastic. It still never explains a joke and never acknowledges that
+the Expedition is absurd. Merchandise and release material sit here. This
+is why a commemorative shirt can say "1 REALLY GOOD BLENDER" while the
+artifact record says "CSE-A-001."
+
+When in doubt, write as the Archive. The Initiative's licence is narrow
+and covers what it sells and publishes, not the historical record.
 
 ## Staying in sync with other collaborators
 
