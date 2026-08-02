@@ -1,0 +1,39 @@
+---
+layout: base.njk
+---
+
+<article class="record">
+  <header class="record__head">
+    {% if section %}
+      <p class="eyebrow"><a href="{{ sectionUrl }}">{{ section }}</a></p>
+    {% endif %}
+    <h1>{{ title }}</h1>
+
+    {% if accession_number or role or status or type or issued_by or recovered or condition %}
+      <dl class="spec">
+        {% if accession_number %}
+          <dt>Accession</dt><dd>{{ accession_number }}</dd>
+        {% endif %}
+        {% if role %}
+          <dt>Role</dt><dd>{{ role }}</dd>
+        {% endif %}
+        {% if issued_by %}
+          <dt>Issued by</dt><dd>{{ issued_by }}</dd>
+        {% endif %}
+        {% if recovered %}
+          <dt>Recovered</dt><dd>{{ recovered }}</dd>
+        {% endif %}
+        {% if condition %}
+          <dt>Condition</dt><dd>{{ condition }}</dd>
+        {% endif %}
+        {% if status %}
+          <dt>Status</dt><dd>{{ status }}</dd>
+        {% endif %}
+      </dl>
+    {% endif %}
+  </header>
+
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+</article>

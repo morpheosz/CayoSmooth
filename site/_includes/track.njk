@@ -1,0 +1,47 @@
+---
+layout: base.njk
+---
+
+<article class="record">
+  <header class="record__head">
+    <p class="eyebrow"><a href="/discography/">Discography</a></p>
+    <h1>{{ title }}</h1>
+    <p class="record__sub">
+      Track {{ track_number }} of 61
+      {%- if catalog_number %} &middot; {{ catalog_number }}{% endif %}
+    </p>
+
+    <dl class="spec">
+      <dt>Status</dt>
+      <dd>{{ status | capitalize }}</dd>
+      {% if runtime %}<dt>Runtime</dt><dd>{{ runtime }}</dd>{% endif %}
+      {% if key %}<dt>Key</dt><dd>{{ key }}</dd>{% endif %}
+      {% if bpm %}<dt>Tempo</dt><dd>{{ bpm }} BPM</dd>{% endif %}
+      {% if recorded %}<dt>Recorded</dt><dd>{{ recorded }}</dd>{% endif %}
+    </dl>
+
+    {% if personnel %}
+      <div class="personnel">
+        <p class="label">Personnel</p>
+        <ul>
+          {% for person in personnel %}<li>{{ person }}</li>{% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </header>
+
+  {% if status == "released" %}
+    <div class="prose">
+      <p class="label">Archival note</p>
+      {{ content | safe }}
+    </div>
+  {% else %}
+    <div class="prose">
+      <p class="withheld">
+        This track is unreleased. The Archive is introducing the remaining
+        material to the public gradually, on the advice of a panel of
+        cardiologists. No archival note has been prepared.
+      </p>
+    </div>
+  {% endif %}
+</article>

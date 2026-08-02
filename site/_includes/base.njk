@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if title %}{{ title }} — {% endif %}Cayo Smooth Expedition Archive</title>
+    <link rel="stylesheet" href="/css/archive.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="masthead">
+      <div class="wrap">
+        <p class="masthead__institution">
+          <a href="/">Cayo Smooth Expedition Archive</a>
+        </p>
+        <p class="masthead__note">Recovered materials, 1979&ndash;1980</p>
+      </div>
+    </header>
+
+    <nav class="nav" aria-label="Archive sections">
+      <div class="wrap">
+        <ul>
+          <li><a href="/expedition/">The Expedition</a></li>
+          <li><a href="/discography/">Discography</a></li>
+          <li><a href="/artifacts/">Artifacts</a></li>
+          <li><a href="/personnel/">Personnel</a></li>
+          <li><a href="/notices/">Notices</a></li>
+          <li><a href="/merch/">Storefront</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="main" class="wrap">
+      {{ content | safe }}
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <p>
+          The Cayo Smooth Expedition Archive holds originating rights to the
+          Expedition, the ketch, the cheese manifest, the blender, and Terry.
+          Licensing enquiries are answered when the wind changes.
+        </p>
+        <p class="footer__fine">
+          Sixty-one tracks recovered. Five released. Play responsibly. Do not
+          operate a vessel while listening to side&nbsp;B.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

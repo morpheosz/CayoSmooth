@@ -1,0 +1,25 @@
+---
+layout: base.njk
+permalink: /personnel/index.html
+title: Personnel Records
+---
+
+<header class="section-head">
+  <h1>Personnel Records</h1>
+  <p class="section-head__note">
+    The ketch departed carrying Vandermeer, an unlicensed dentist, and four
+    studio musicians. One further name appears in the record and is not
+    accounted for by that figure.
+  </p>
+</header>
+
+<ul class="index-list">
+  {% for doc in collections.personnel %}
+    <li>
+      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+      <span class="index-list__meta">
+        {% if doc.data.role %}{{ doc.data.role }} &middot; {% endif %}{{ doc.data.status }}
+      </span>
+    </li>
+  {% endfor %}
+</ul>

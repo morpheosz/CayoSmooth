@@ -1,0 +1,519 @@
+/* Cayo Smooth Expedition Archive
+   Institutional register: serif text, hairline rules, generous margins.
+   The subject matter is the only loud thing on the page. */
+
+:root {
+  --paper: #fbfaf7;
+  --ink: #17191c;
+  --muted: #6b6e68;
+  --rule: #e2ded4;
+  --rule-strong: #c9c4b6;
+  --link: #2a4a63;
+  --wash: #f4f2ec;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+    Georgia, serif;
+  --measure: 34rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #15171a;
+    --ink: #e7e4dc;
+    --muted: #94918a;
+    --rule: #2b2e33;
+    --rule-strong: #3d4148;
+    --link: #a3c4df;
+    --wash: #1b1e22;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip:focus {
+  left: 1rem;
+  top: 1rem;
+  background: var(--paper);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--rule-strong);
+  z-index: 10;
+}
+
+/* ---- Masthead and navigation ---- */
+
+.masthead {
+  padding: 3.25rem 0 1.5rem;
+  text-align: center;
+}
+
+.masthead__institution {
+  margin: 0;
+  font-size: 0.9375rem;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+}
+
+.masthead__institution a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.masthead__note {
+  margin: 0.5rem 0 0;
+  font-size: 0.8125rem;
+  letter-spacing: 0.09em;
+  color: var(--muted);
+}
+
+.nav {
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 3.5rem;
+}
+
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 1.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0.9rem 0;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.75rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  color: var(--ink);
+}
+
+/* ---- Shared type ---- */
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.75rem;
+  max-width: var(--measure);
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.9rem;
+}
+
+.eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 0 1.1rem;
+}
+
+.eyebrow a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.eyebrow a:hover {
+  color: var(--ink);
+}
+
+.caption {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: var(--measure);
+  margin: 1.5rem 0 0;
+}
+
+/* ---- Home ---- */
+
+.lede h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.lede__text {
+  max-width: var(--measure);
+  margin: 0 0 1.25rem;
+}
+
+.more {
+  margin: 1.75rem 0 0;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.panel {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+
+.figures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1.5rem 2rem;
+  margin: 0;
+}
+
+.figures div {
+  border-top: 1px solid var(--rule);
+  padding-top: 0.6rem;
+}
+
+.figures dt {
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.figures dd {
+  margin: 0.2rem 0 0;
+  font-size: 1.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.listing,
+.index-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.index-list--numbered {
+  counter-reset: notice;
+}
+
+.listing li,
+.index-list li {
+  border-top: 1px solid var(--rule);
+  padding: 0.85rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
+}
+
+.listing li:last-child,
+.index-list li:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.listing__meta,
+.index-list__meta {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.sections {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sections li {
+  border-top: 1px solid var(--rule);
+  padding: 0.9rem 0;
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 0.35rem 1.5rem;
+}
+
+.sections li:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.sections span {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+/* ---- Section index pages ---- */
+
+.section-head {
+  margin-bottom: 3rem;
+}
+
+.section-head__note {
+  max-width: var(--measure);
+  color: var(--muted);
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+/* ---- Records ---- */
+
+.record__head {
+  margin-bottom: 2.5rem;
+}
+
+.record__sub {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  margin: 0 0 1.75rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.spec {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 0;
+  margin: 2rem 0 0;
+  border-top: 1px solid var(--rule);
+  max-width: 40rem;
+}
+
+/* Cells stretch to a common row height, so the extra top padding on the
+   label only shifts its text — it aligns the small-caps baseline with the
+   larger value alongside it. */
+.spec dt {
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0.88rem 0 0.65rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.spec dd {
+  margin: 0;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.9375rem;
+}
+
+.personnel {
+  margin-top: 2rem;
+}
+
+.personnel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9375rem;
+  max-width: var(--measure);
+}
+
+.personnel li {
+  padding: 0.3rem 0;
+  color: var(--ink);
+}
+
+.prose {
+  max-width: var(--measure);
+}
+
+.prose p {
+  margin: 0 0 1.25rem;
+}
+
+.prose h2 {
+  font-size: 1.25rem;
+  margin: 2.5rem 0 0.75rem;
+}
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+
+.prose blockquote {
+  margin: 1.75rem 0;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--rule-strong);
+  color: var(--muted);
+}
+
+.prose blockquote p {
+  margin-bottom: 0.75rem;
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.15rem;
+  margin: 0 0 1.25rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose code {
+  font-size: 0.875em;
+  background: var(--wash);
+  padding: 0.1em 0.35em;
+  border-radius: 2px;
+}
+
+.prose em {
+  font-style: italic;
+}
+
+.withheld {
+  color: var(--muted);
+  font-size: 0.9375rem;
+  border-left: 2px solid var(--rule-strong);
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+/* ---- Catalog table ---- */
+
+.table-wrap {
+  overflow-x: auto;
+  margin: 0 0 0.5rem;
+}
+
+.catalog {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.catalog caption {
+  caption-side: bottom;
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.catalog th {
+  text-align: left;
+  font-weight: 400;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0 1rem 0.6rem 0;
+  border-bottom: 1px solid var(--rule-strong);
+  white-space: nowrap;
+}
+
+.catalog td {
+  padding: 0.6rem 1rem 0.6rem 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: baseline;
+}
+
+.catalog .num {
+  color: var(--muted);
+  width: 3rem;
+  padding-right: 1.25rem;
+}
+
+.catalog .status {
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.catalog tr.is-released .status {
+  color: var(--ink);
+}
+
+.catalog tr.is-released td:nth-child(2) a {
+  font-weight: 600;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+  margin-top: 6rem;
+  border-top: 1px solid var(--rule);
+  padding: 2.25rem 0 4rem;
+}
+
+.footer p {
+  max-width: var(--measure);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0 0 0.9rem;
+}
+
+.footer__fine {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 34rem) {
+  .lede h1 {
+    font-size: 2rem;
+  }
+
+  .spec,
+  .sections li {
+    grid-template-columns: 1fr;
+  }
+
+  .spec dt {
+    padding: 0.65rem 0 0;
+    border-bottom: 0;
+  }
+
+  .sections li span {
+    margin-top: -0.15rem;
+  }
+}

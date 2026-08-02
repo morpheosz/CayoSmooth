@@ -1,0 +1,26 @@
+---
+layout: base.njk
+permalink: /notices/index.html
+title: Notices
+---
+
+<header class="section-head">
+  <h1>Notices</h1>
+  <p class="section-head__note">
+    Correspondence arising from a second party's independent excavation of the
+    Vandermeer materials. Filed in order of issue. The matter is open.
+  </p>
+</header>
+
+<ol class="index-list index-list--numbered">
+  {% for doc in collections.notices %}
+    <li>
+      <a href="{{ doc.url }}">{{ doc.data.title }}</a>
+      <span class="index-list__meta">{{ doc.data.issued_by }}</span>
+    </li>
+  {% endfor %}
+</ol>
+
+<p class="caption">
+  Our counsel is on a boat and will respond when the wind changes.
+</p>
