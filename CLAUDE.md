@@ -73,7 +73,9 @@ correction the Archive issues about itself), never silently retconned.
 ```
 CLAUDE.md              This file.
 README.md              Archive framing, repo map.
-CONTRIBUTING.md         Full style guide, PR process, canon-change process.
+CONTRIBUTING.md         PR process, canon-change process, collaborators.
+SEED.md                 Seed brief for generative tools. Published unlinked
+                        at /seed.md. Keep current — see below.
 content/
   expedition/           Voyage narrative, the smooth latitudes, recovery.
   discography/          One file per track, plus _TEMPLATE.md.
@@ -88,12 +90,49 @@ assets/                 Cover art, mockups, images.
 ## Working conventions
 
 - Content lives in Markdown with YAML frontmatter so it stays portable
-  across site generators.
+  across site generators, and diffable in review.
 - Every discography entry follows `content/discography/_TEMPLATE.md`.
   Released tracks get full entries; unreleased tracks are stubs with
   `status: unreleased` and a title only.
-- Every full track entry must include at least one detail that is
-  quietly wrong — an inconsistency stated with total confidence, never
-  flagged as a joke.
+- Artifact and personnel records: prose is unstructured beyond a short
+  frontmatter block (`title`, `type`, optionally `status`). Match the
+  register of existing files in the same directory before adding new
+  ones.
+- Notices: correspondence format, dated, signed by the Archive or the
+  counterparty as appropriate. See `content/notices/` for the existing
+  exchange.
+- Every full discography entry, and most artifact and personnel
+  records, must carry at least one detail that is quietly wrong — a
+  date that doesn't reconcile, a number that contradicts another
+  document, a credit that couldn't have been possible. It is never
+  flagged as a joke. If a detail like this looks like a mistake and you
+  want to "fix" it, check the hard canon list above first — it may be
+  load-bearing.
 - When in doubt about tone, prefer understatement and cut the last
   sentence if it explains the joke.
+
+## Keeping SEED.md current
+
+`SEED.md` is the seed brief other generative tools (image, audio, video,
+copy) are pointed at to stay consistent with this Archive. It duplicates
+canon, personnel, artifact descriptions, the discography, and storefront
+copy in one place, which means it goes stale the moment those diverge
+from what's actually on the site.
+
+**On every merge to `main`, evaluate whether `SEED.md` needs updating,
+and update it in the same PR if so.** In particular, re-check it whenever
+a merge:
+
+- Adds, releases, or retitles a discography track
+- Adds, removes, or changes the status of an artifact
+- Adds or edits a personnel record
+- Changes hard canon in `CLAUDE.md` itself
+- Adds or changes storefront items
+- Changes the visual direction (palette, photography conventions, the
+  "resist 1978 album cover" guidance)
+
+A merge that only touches build tooling, styling, or this file's own
+non-canon sections does not require a `SEED.md` update. When updating
+it, keep the instructions/source-material split (sections 1–3 are
+out-of-character; everything after is in the Archive's voice) and keep
+§12's open-threads list honest rather than aspirational.

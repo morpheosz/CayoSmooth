@@ -4,46 +4,14 @@ Multiple people, and at least one rival AI assistant, contribute to this
 Archive. This document is how we stay consistent. Read `CLAUDE.md` first —
 it holds the tone rules and hard canon. This document covers process.
 
-## Style guide
+## Style guide and content format
 
-**Voice.** Museum placard, maritime insurance adjuster, or slightly
-defensive academic. The Archive is a real institution documenting a real
-expedition. It does not know it is funny.
-
-**Sentences.** Short and declarative. Prefer concrete nouns to abstractions.
-Use specific numbers, especially unnecessary ones — "between 82 and 84 BPM"
-does more work than "very slow."
-
-**What to avoid:**
-
-- Exclamation points
-- Explaining a joke in the sentence after it
-- Modern internet cadence
-- A character or narrator being aware they're in a bit
-- Puns as punchlines (song titles are the one place puns belong)
-
-**The quietly wrong detail.** Every full discography entry, and most
-artifact and personnel records, should carry one detail that doesn't quite
-add up — a date that doesn't reconcile, a number that contradicts another
-document, a credit that couldn't have been possible. It is never flagged.
-If a contributor notices one and wants to "fix" it, check `CLAUDE.md`
-hard canon first — it may be load-bearing.
-
-## Content format
-
-All content lives in Markdown with YAML frontmatter in `content/`. This
-keeps it portable across site generators and diffable in review.
-
-- Discography entries: copy `content/discography/_TEMPLATE.md`. Filled-in
-  fields are required for `status: released`; stubs need only `title` and
-  `status: unreleased`.
-- Artifact and personnel records: prose is unstructured beyond a short
-  frontmatter block (`title`, `type`, optionally `status`). Match the
-  register of existing files in the same directory before adding new
-  ones.
-- Notices: correspondence format, dated, signed by the Archive or the
-  counterparty as appropriate. See `content/notices/` for the existing
-  exchange.
+Both live in `CLAUDE.md` now (see "Voice," "What works" / "What does not
+work," and "Working conventions"), not here. `CLAUDE.md` is the file
+Claude Code loads automatically at the start of every session, so it's
+the single source of truth for anything that affects how content reads —
+keeping a second copy here risked the two quietly disagreeing over time.
+This document covers process instead: what to do, not how to write it.
 
 ## Canon-change process
 
