@@ -1,7 +1,34 @@
 # Canon Reconciliation — v1.0
 
-**Status:** Proposed. Awaiting ratification by Chris and Zach.
+**Status:** Ratified by Chris and Zach, 2026-08-02. Executed except where
+noted below.
 **Date:** 2026-08-02
+
+## Execution status
+
+| Item | State |
+| --- | --- |
+| A1 return-date dispute | Executed |
+| A2 roster stands | Ratified, no change required |
+| A3 rotating vocalists | Executed |
+| A4 Cabo reframe | Executed. Lyric workshop outstanding |
+| A5 Chardonnay amendment | **Blocked** — needs the master (C1) |
+| A6 Grand Marais | Executed |
+| A7 Palisade Porter | Executed as SLR-040, replacing "Freeboard" |
+| A8 Volumes | Executed in the Initiative record. Vol. I sequence deferred |
+| A9 seal and tagline | Copy executed. Artwork **blocked** (C2) |
+| A10 AI disclosure | Deferred by design. Shape agreed, page unwritten |
+| A11 ports of call | Executed |
+| A12 Gil's Demo | Ratified. **Blocked** — needs the audio (C1) |
+| A13 Restoration Initiative | Executed |
+| A14a brief URL | Executed |
+| A14b `SLR-` prefix | **Withdrawn** — see the item |
+| A14c blender 1988/1990 | Left alone, as directed |
+| B1 Grand Marais evidence | Executed as CSE-A-005, dockage receipt |
+| B2 retired stub | Executed — "Freeboard" |
+| B3 Cabo episode empty | Executed. Added to protected mysteries |
+| B4 modern layer on site | Answered — `/initiative/` exists, staff unnamed |
+| B5 attribution visibility | Executed — 38/4/1/7/11, mostly incomplete |
 **Out of universe.** This is a working document, not archive material. It
 will not be published. Once ratified and executed it becomes the record of
 what was decided and why, so that neither side re-litigates it in a later
@@ -462,9 +489,11 @@ Zach's titles are undrafted.
 **a.** `CAYO-SMOOTH-BRIEF.md` line 6 gives the repo as `zpierce/CayoSmooth`.
 It is `morpheosz/CayoSmooth`. Correct it.
 
-**b.** The `SLR-` catalog prefix is used throughout and defined nowhere.
-Recommend leaving it undefined. An unexplained prefix on every record is more
-archival than an explained one.
+**b.** ~~The `SLR-` catalog prefix is used throughout and defined nowhere.~~
+**Withdrawn.** It is defined — `content/discography/_TEMPLATE.md` glosses it
+as Smooth Latitudes Recording Co. The gloss lives only in the template, which
+is unpublished, so the prefix stays unexplained everywhere a reader can see
+it. That is the right arrangement and needs no change.
 
 **c.** The blender was recovered in 1988 and is "identified from the
 journal's reference to 'the good blender'" — but the journal came out of the
