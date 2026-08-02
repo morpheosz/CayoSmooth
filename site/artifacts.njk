@@ -12,17 +12,11 @@ title: Artifact Inventory
   </p>
 </header>
 
-<ul class="inventory">
+<ul class="index-list">
   {% for doc in collections.artifact %}
-    <li class="accession">
-      <a class="accession__link" href="{{ doc.url | url }}">
-        <span class="accession__frame">
-          <img src="{{ doc.data.image | url }}" alt="{{ doc.data.title }}"
-               width="800" height="600" />
-        </span>
-        <span class="accession__title">{{ doc.data.title }}</span>
-      </a>
-      <span class="accession__meta">
+    <li>
+      <a href="{{ doc.url | url }}">{{ doc.data.title }}</a>
+      <span class="index-list__meta">
         {{ doc.data.accession_number }} &middot; {{ doc.data.status }}
       </span>
     </li>
@@ -30,6 +24,5 @@ title: Artifact Inventory
 </ul>
 
 <p class="caption">
-  Plates are measured drawings. Artifact photography is held offsite and has
-  not been digitised.
+  Artifact photography is held offsite and has not been digitised.
 </p>
