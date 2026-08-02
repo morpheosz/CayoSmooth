@@ -22,11 +22,21 @@ exist and, per the field report, never did. The Archive has elected not
 to renumber, on the grounds that renumbering would imply the gap needed
 explaining.
 
-The lyric refers to a period of illness contracted in Cabo, a place the
-Expedition's charter logs do not record the ketch ever visiting. The
-reprise addresses this period with the confidence of a song recalling
-something, rather than a song introducing it for the first time. Three
-place names, two proper nouns, and one apparent inside joke about a
+The lyric refers throughout to an episode at Cabo. It does not describe
+the episode and it does not introduce it. It refers to it with the
+confidence of a song recalling something the listener was present for,
+and no listener was.
+
+What the episode was is not recorded in the trove, in the journal, in the
+ledger, or in any statement given by a returning member of the
+Expedition. The Archive has been asked and has nothing to add.
+
+The charter log does not place the ketch at Cabo San Lucas. The
+reconstructed port record does. The Archive holds both documents, notes
+that they disagree, and observes that the song is not evidence for either,
+being a reprise of a recording that does not exist.
+
+Three place names, two proper nouns, and one apparent inside joke about a
 customs official are original to this recording and appear nowhere else
 in the trove.
 
