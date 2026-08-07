@@ -24,6 +24,7 @@ noted below.
 | A14a brief URL | Executed |
 | A14b `SLR-` prefix | **Withdrawn** — see the item |
 | A14c blender 1988/1990 | Left alone, as directed |
+| A15 catalogue retitling | Executed — 35 of 56 replaced |
 | B1 Grand Marais evidence | Executed as CSE-A-005, dockage receipt |
 | B2 retired stub | Executed — "Freeboard" |
 | B3 Cabo episode empty | Executed. Added to protected mysteries |
@@ -481,6 +482,63 @@ Zach's titles are undrafted.
 
 **Files:** new `content/notices/04-*.md`, new content section, `SEED.md`,
 `CLAUDE.md`.
+
+---
+
+## A15. Catalogue retitling
+
+**Raised by Chris after the merge.** The fifty-six unreleased titles leaned
+too hard on nautical puns for a band the project insists is serious.
+
+Diagnosis on review found two problems, the second worse than the first.
+
+**a. The puns are a specific kind.** "Dock of Ages," "Cleat Expectations,"
+"Galley Slave (To Love)," "Rode to Nowhere," "The Long Tack Home," "Chine
+Music," "Halyard Days," "The Loran Never Lies" are all puns *on an existing
+famous title*. None of the five founding titles does this. That is a
+different comedic register and it clashes with everything around it.
+
+**b. Fifteen titles were named after things that had not happened yet.**
+"The Warehouse," "Crate 14," "Panama, Unlabeled," "Dental Equipment,
+Fragile," "The Cardiologist's Warning," "Side B, Reluctantly" all refer to
+the 1990 discovery or to the modern Archive. A band at sea in 1979 could not
+name a song any of those. This is not a joke landing badly; it is the
+fiction breaking, and it made the catalogue read as though the Archive wrote
+it rather than the band.
+
+Also found: "The Quiet Part (Loud)" is 2020s internet cadence, which
+`CLAUDE.md` bans outright. "The Telegram" and "Vandermeer's Telegram" were
+the same song twice.
+
+**DECISION (Chris):** Sweep all fifty-six. Rule promoted to `CLAUDE.md`:
+
+1. No puns on existing famous titles or phrases. Genuine double meanings
+   are fine; recognising the source phrase is not a payload.
+2. Yacht rock is almost never about boats. Most titles should be plain and
+   emotional. Nautical vocabulary appears sparingly and sincerely.
+3. Nothing named after a post-1980 discovery.
+
+**Result:** twenty-one titles kept, thirty-five replaced. Kept because they
+pass on their own terms: `The Loran Sessions`, `Portage Bay Blues`,
+`Draft Notice`, `Ballast`, `The Sounding`, `Displacement`, `Following Sea`,
+`A Line Cast Twice`, `The Windlass Confession`, `Depth Finder`, `Stanchion`,
+`Transom`, `The Second Anchor`, `Palisade Porter`, `Provisions`,
+`The Telegram`, `Fourteen Months`, `The Smooth Latitudes`, `Terry's Watch`,
+`The Good Blender`, `Reaching the Smoothness`.
+
+**Deliberate resonances in the new set, flagged so they are not read as
+accidents:**
+
+- **37. "Marina Esperanza"** — the name the liner notes give the subject of
+  "Marina, Don't," and the name of a port vocalist in `vocal-attribution.md`.
+  Three appearances, no connection drawn. If this reads as too close to
+  solving "Marina, Don't," retitle it.
+- **12. "Six Weeks"** — the charter term. They were gone fourteen months.
+- **34. "The Rest of the Chardonnay"** — SLR-002 is track 2.
+
+**Files:** thirty-five renames under `content/discography/`, `CLAUDE.md`,
+`SEED.md`. The published tracklist is generated from the files and follows
+automatically.
 
 ---
 

@@ -166,6 +166,37 @@ assets/                 Cover art, mockups, images.
 - When in doubt about tone, prefer understatement and cut the last
   sentence if it explains the joke.
 
+## Naming tracks
+
+Three rules, in order of how often they get broken.
+
+**No puns on existing famous titles or phrases.** "Dock of Ages,"
+"Cleat Expectations," "Rode to Nowhere" — this is a different comedic
+register from the rest of the project and it clashes badly with it. None
+of the five founding titles does this. Wordplay that produces a genuine
+double meaning is fine ("Draft Notice," "Displacement," "Nothing to
+Declare"); wordplay whose entire payload is recognising the source
+phrase is not.
+
+**Yacht rock is almost never about boats.** The genre is named for a
+vessel and the songs are about women and regret — "What a Fool
+Believes," "Peg," "Baby Come Back." Most titles should be plain,
+emotional, and direct. Nautical vocabulary is allowed when it is used
+sincerely, meaning the actual thing: "Ballast," "Following Sea," "The
+Sounding," "Transom." Used that way it is a real word in a real song. A
+catalogue where every title is rigging vocabulary is the one thing a
+1979 studio record would not be.
+
+**Nothing named after a post-1980 discovery.** The band was at sea. It
+did not know about Crate 14, the Panamanian warehouse, the panel of
+cardiologists, or which side of the record would turn out to be a
+problem. Titles may reference anything the crew knew — the telegram, the
+blender, the smooth latitudes, Terry's watch, how long they had been
+gone.
+
+Puns as song titles are still encouraged, per "What does not work"
+above. The rules narrow which puns, not whether.
+
 ## Keeping SEED.md current
 
 `SEED.md` is the seed brief other generative tools (image, audio, video,

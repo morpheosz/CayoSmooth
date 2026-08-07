@@ -569,25 +569,35 @@ supervised playback. One woke believing he owned a boat.
 Titles only. Being introduced gradually, on the advice of a panel of
 cardiologists.
 
-5. Brackish (Emotionally) · 6. Tender to the Tender · 7. Dock of Ages ·
-8. Bilge of My Heart · 9. Starboard, Still · 10. The Loran Sessions ·
-11. Cleat Expectations · 12. Windward, Reluctantly · 13. Galley Slave (To Love) ·
-14. Halyard Days · 15. Portage Bay Blues · 16. The Long Tack Home ·
-17. Nine Fathoms Under · 18. Draft Notice · 19. Ballast · 20. Reef Points ·
-21. The Sounding · 22. Leeward of You · 23. Rode to Nowhere · 24. Chine Music ·
-25. Displacement · 26. The Bilge Pump Ballad · 27. Fenders Up ·
-28. Following Sea · 29. The Gimbal Waltz · 30. Scuppers ·
+5. Small Craft Advisory · 6. Nothing to Declare · 7. I Was Fine Until Nassau ·
+8. Somebody's Wife · 9. The Part Where I Apologize · 10. The Loran Sessions ·
+11. Call Me From Shore · 12. Six Weeks · 13. Whatever You Decided ·
+14. One More Sunset Than Necessary · 15. Portage Bay Blues ·
+16. Sleeping Through Cartagena · 17. Duty Free · 18. Draft Notice ·
+19. Ballast · 20. Not Your Fault, Mostly · 21. The Sounding ·
+22. The Weather You Brought · 23. Two Weeks Past Due · 24. Half a Reason ·
+25. Displacement · 26. Ashore, Briefly · 27. You Should See It From Here ·
+28. Following Sea · 29. Late to Everything · 30. Everybody's Fine in Aruba ·
 31. A Line Cast Twice · 32. The Windlass Confession · 33. Depth Finder ·
-34. Beam Reach · 35. Stanchion · 36. The Quiet Part (Loud) ·
-37. Barnacle Season · 38. Transom · 39. The Second Anchor · 40. Palisade Porter ·
-41. Tide Tables (For Two) · 42. The Loran Never Lies · 43. Sail Number Nine ·
-44. The Duty-Free Heart · 45. Provisions · 46. Nine Hundred Pounds of Cheese ·
-47. The Telegram · 48. Fourteen Months · 49. The Smooth Latitudes ·
-50. Terry's Watch · 51. The Good Blender · 52. Side B, Reluctantly ·
-53. Dental Equipment, Fragile · 54. The Cardiologist's Warning ·
-55. Panama, Unlabeled · 56. The Warehouse · 57. Crate 14 ·
-58. Vandermeer's Telegram · 59. The Unlicensed Waltz ·
+34. The Rest of the Chardonnay · 35. Stanchion · 36. The Other Chair ·
+37. Marina Esperanza · 38. Transom · 39. The Second Anchor ·
+40. Palisade Porter · 41. No One Is Waiting · 42. I'll Be Along ·
+43. Easy Water · 44. Twice Around the Gulf · 45. Provisions ·
+46. The Long Afternoon · 47. The Telegram · 48. Fourteen Months ·
+49. The Smooth Latitudes · 50. Terry's Watch · 51. The Good Blender ·
+52. Keep the Change · 53. Better in the Morning · 54. Two Days Out ·
+55. Almost Sorry · 56. The Blue Hour · 57. Don't Wait Up ·
+58. Everything Except That · 59. A Good Faith Effort ·
 60. Reaching the Smoothness
+
+**On titling.** Yacht rock is almost never about boats — the genre is named
+for a vessel and the songs are about women and regret. Titles are mostly
+plain, emotional, and direct. Nautical vocabulary appears sparingly and
+always sincerely, meaning the actual thing: `Ballast`, `Displacement`,
+`Following Sea`, `The Sounding`, `Draft Notice`, `Transom`. Never a pun on
+an existing famous title, and never a title referring to anything discovered
+after 1980 — the band was at sea and could not have known about the crate,
+the warehouse, or the cardiologists.
 
 **For generated music.** 82–84 BPM, major seventh chords throughout, Fender
 Rhodes forward in the mix and drifting a quarter tone flat, fretless-adjacent
